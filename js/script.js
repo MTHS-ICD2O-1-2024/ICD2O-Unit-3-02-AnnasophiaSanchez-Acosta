@@ -7,7 +7,7 @@
 "use strict"
 
 /**
- * This function calculates area of a triangle.
+ * This function calculates volume of a triangle.
  */
 function calculateVolumeOfPyramid() {
   // input
@@ -15,9 +15,9 @@ function calculateVolumeOfPyramid() {
   const width = parseFloat(document.getElementById("Width").value)
   const height = parseFloat(document.getElementById("height").value)
   // process
-  const VolumeOfPyramid = (length * width * height) / 3
+  const volumeOfPyramid = (length * width * height) / 3
 
   // output
   document.getElementById("volume").innerHTML =
-    "Area is: " + VolumeOfPyramid + " cm²"
+    "Area is: " + volumeOfPyramid + " cm²"
 }
