@@ -12,7 +12,7 @@
 function calculateVolumeOfPyramid() {
   // input
   const length = parseFloat(document.getElementById("length").value)
-  const width = parseFloat(document.getElementById("Width").value)
+  const width = parseFloat(document.getElementById("width").value)
   const height = parseFloat(document.getElementById("height").value)
   // process
   const volumeOfPyramid = (length * width * height) / 3
