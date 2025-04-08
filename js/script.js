@@ -19,5 +19,5 @@ function calculateVolumeOfPyramid() {
 
   // output
   document.getElementById("volume").innerHTML =
-    "Area is: " + volumeOfPyramid + " cm²"
+    "Area is: " + volumeOfPyramid.tofixed(2) + " cm²"
 }
